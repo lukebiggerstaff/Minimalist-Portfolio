@@ -1,7 +1,13 @@
-.content--wrapper {
+.content {
 	width: 90%;
 	margin: 0 auto;
 	font-family: 'Open Sans', 'sans-serif';
+	border-bottom: .0625em solid $x-lightgrey;
+
+	@media screen and (min-width: 660px) {
+		border-bottom: initial;
+		padding-bottom: initial;
+	}
 }
 
 .content--header {
@@ -16,7 +22,7 @@
 }
 
 .content--copy {
-
+	margin-bottom: 1em;
 
 	@media screen and (min-width: 41.25em) {
 		width: 100%;
@@ -107,7 +113,7 @@
 
 .content--copy__first-paragraph {
 	text-justify: block;
-	color: lighten($lightgrey, 3%);
+	color: $lightgrey;
 	text-align: justify;
 
 	@media screen and (min-width: 41.25em) {
@@ -121,4 +127,8 @@
 
 .content--copy__third-paragraph {
 	@extend .content--copy__first-paragraph;
+}
+
+.content--header__sub-heading-bottom {
+	@extend .content--header__sub-heading;
 }

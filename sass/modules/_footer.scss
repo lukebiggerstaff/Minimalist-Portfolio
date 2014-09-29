@@ -1,0 +1,83 @@
+.footer--links {
+	list-style: none;
+	text-align: center;
+	padding: 0;
+
+	& li {
+		display: inline-block;
+		margin: 0 1em;
+	}
+
+	& a {
+		padding: .8em 1.2em;
+		text-decoration: none;
+	}
+
+}
+
+%footer--links__icon {
+	font-family: 'icomoon';
+	color: gray;
+	font-size: 1.3em;
+
+	@media screen and (min-width: 41.25em) {
+		font-size: 1.8em;
+		transition: .3s color;
+	}
+}
+
+.footer--links__facebook-icon {
+
+	&:before {
+		@extend %footer--links__icon;
+		content: $facebook;
+	}
+
+	&:hover:before {
+		color: $facebook-blue;
+		transition: .3s color;
+	}
+
+}
+
+.footer--links__linkedin-icon {
+
+	&:before {
+		@extend %footer--links__icon;
+		content: $linkedin;
+	}
+
+	&:hover:before {
+		color: $linkedin-blue;
+		transition: .3s color;
+	}
+}
+
+.footer--links__email-icon {
+
+	&:before {
+		@extend %footer--links__icon;
+		content: $email;
+	}
+
+	&:hover:before {
+		color: $email-black;
+		transition: .3s color;
+	}
+
+}
+
+.footer--links__skype-icon {
+
+	&:before {
+		@extend %footer--links__icon;
+		content: $skype;
+	}
+
+	&:hover:before {
+		color: $skype-blue;
+		transition: .3s color;
+	}
+
+}
+	

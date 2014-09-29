@@ -11,4 +11,9 @@ The website has a very simple and clean design and will rely on AJAX calls to th
 
 In the 2nd commit I've added the navigation and body text. Navigation is concealed at 41.25ems and below to be revealed by pressing the "hamburger" icon.
 
-Body content goes from a three column layout to a stacked view for mobile below 41.25ems.
+Body content scales up from a stacked view to a three column layout for screen widths above 41.25ems.
+
+------
+#####3rd Commit
+
+Home page has been fleshed out and footer added. All widths are in ems and percentages for a completely fluid experience. 

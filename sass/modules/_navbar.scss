@@ -1,7 +1,7 @@
 .navigation {
 	width: 100%;
 	font-family: 'EB Garamond', 'serif';
-	color: $black;
+	color: $grey;
 	height: 11.5em;
 	overflow: hidden;
 
@@ -11,7 +11,6 @@
 
 	@media screen and (min-width: 41.25em) {
 		height: inherit;
-		// border-bottom: 0.0625em solid $lightgrey;
 	}
 
 }
@@ -25,10 +24,15 @@
 	font-size: 1.8em;
 	text-align: center;
 	text-decoration: none;
-	color: $black;
+	color: $grey;
 
 	@media screen and (min-width: 41.25em) {
 		display: none;
+	}
+
+	&__icon:before {
+		font-family: 'icomoon';
+		content: $menu;
 	}
 
 }
