@@ -1,0 +1,124 @@
+.content--wrapper {
+	width: 90%;
+	margin: 0 auto;
+	font-family: 'Open Sans', 'sans-serif';
+}
+
+.content--header {
+	text-align: center;
+	color: $grey;
+	font-family: 'EB Garamond', 'serif';
+}
+
+.content--header__sub-heading {
+	@extend .content--header;
+	color: lighten($lightgrey, 3%);
+}
+
+.content--copy {
+
+
+	@media screen and (min-width: 41.25em) {
+		width: 100%;
+
+		&:after {
+			content: '';
+			display: table;
+			clear: both;
+		}
+	}
+}
+
+.content--copy__first {
+	margin: 1em 0;
+
+	@media screen and (min-width: 41.25em) {
+		float: left;
+		width: 32%;
+		margin: 1em 2% 1em 0;
+	}
+}
+
+.content--copy__second {
+	@extend .content--copy__first;
+}
+
+.content--copy__third {
+	margin: 1em 0;
+
+	@media screen and (min-width: 41.25em) {
+		width: 32%;
+		float: right;
+		margin: 1em 0;
+	}
+}
+
+.content--copy__first-headline {
+	text-align: center;
+	color: $grey;
+}
+
+.content--copy__second-headline {
+	@extend .content--copy__first-headline;
+}
+
+.content--copy__third-headline {
+	@extend .content--copy__first-headline;
+}
+
+%content--copy__icon {
+	text-align: center;
+	display: block;
+}
+
+.content--copy__pencil-icon {
+	@extend %content--copy__icon;
+}
+
+.content--copy__gear-icon {
+	@extend %content--copy__icon;
+}
+
+.content--copy__truck-icon {
+	@extend %content--copy__icon;
+}
+
+%content--copy__icon-before {
+	font-family: 'icomoon';
+	font-size: 8em;
+	color: $lightgrey;
+	font-weight: lighter;
+}
+
+.content--copy__pencil-icon:before {
+	@extend %content--copy__icon-before;
+	content: $pencil;	
+}
+
+.content--copy__gear-icon:before {
+	@extend %content--copy__icon-before;
+	content: $gear;	
+}
+
+.content--copy__truck-icon:before {
+	@extend %content--copy__icon-before;
+	content: $truck;	
+}
+
+.content--copy__first-paragraph {
+	text-justify: block;
+	color: lighten($lightgrey, 3%);
+	text-align: justify;
+
+	@media screen and (min-width: 41.25em) {
+		text-align: none;
+	}
+}
+
+.content--copy__second-paragraph {
+	@extend .content--copy__first-paragraph;
+}
+
+.content--copy__third-paragraph {
+	@extend .content--copy__first-paragraph;
+}

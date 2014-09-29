@@ -1,0 +1,97 @@
+.navigation {
+	width: 100%;
+	font-family: 'EB Garamond', 'serif';
+	color: $black;
+	height: 11.5em;
+	overflow: hidden;
+
+	&__is-open {
+		height: inherit;	
+	}
+
+	@media screen and (min-width: 41.25em) {
+		height: inherit;
+		// border-bottom: 0.0625em solid $lightgrey;
+	}
+
+}
+
+.navigation--button {
+	position: absolute;
+	top: .8em;
+	right: .8em;
+	height: 2em;
+	width: 2em;
+	font-size: 1.8em;
+	text-align: center;
+	text-decoration: none;
+	color: $black;
+
+	@media screen and (min-width: 41.25em) {
+		display: none;
+	}
+
+}
+
+.navigation--logo {
+	text-align: center;
+}
+
+.navigation--logo__bold {
+	font-size: 8em;
+	padding: 0;
+	margin: 0;
+}
+
+.navigation--links {
+	list-style: none;
+	text-align: center;
+	padding: 0;
+
+	& li {
+		border-top: 1px solid $lightgrey;
+		width: 100%;
+		padding: .3em 0;
+	}
+
+	& a {
+		text-decoration: none;
+		color: lighten($grey, 5%);
+		margin: .5em 0;
+		transition: .3s color, .3s text-shadow;
+	}
+
+	&__github {
+		border-bottom: 0.0625em solid $lightgrey;
+	}
+
+	@media screen and (min-width: 660px) {
+
+		& a {
+			display: inline-block;
+			margin: 0 1em;
+			padding: .8em 1.2em;
+
+			&:hover {
+				color: black;
+				transition: .3s color, .3s text-shadow;
+				text-shadow: 0.0625em 0.0625em 0.0625em black;
+			}
+		}
+
+		& li {
+			border: none;
+		}
+
+	}
+
+}
+
+
+
+
+
+
+
+
+
