@@ -52,29 +52,30 @@
 	text-align: center;
 	padding: 0;
 
-	& li {
-		border-top: 1px solid $lightgrey;
-		width: 100%;
-		padding: .3em 0;
-	}
-
 	& a {
+		display: block;
 		text-decoration: none;
-		color: lighten($grey, 5%);
-		margin: .5em 0;
-		transition: .3s color, .3s text-shadow;
+		color: $grey;
+		padding: .8em 1.2em;
+		border-top: .0625em solid $grey;
 	}
 
 	&__github {
-		border-bottom: 0.0625em solid $lightgrey;
+		border-bottom: .0625em solid $grey;
 	}
 
-	@media screen and (min-width: 660px) {
-
-		& a {
+	@media screen and (min-width: 41.25em) {
+		& li {
 			display: inline-block;
 			margin: 0 1em;
-			padding: .8em 1.2em;
+		}
+
+		&__github {
+			border-bottom: initial;
+		}
+	
+		& a {
+			border: initial;
 
 			&:hover {
 				color: black;
@@ -82,20 +83,8 @@
 				text-shadow: 0.0625em 0.0625em 0.0625em black;
 			}
 		}
-
-		& li {
-			border: none;
-		}
-
 	}
-
 }
-
-
-
-
-
-
 
 
 

@@ -17,3 +17,8 @@ Body content scales up from a stacked view to a three column layout for screen w
 #####3rd Commit
 
 Home page has been fleshed out and footer added. All widths are in ems and percentages for a completely fluid experience. 
+
+------
+#####4th Commit
+
+Fixed HTML and CSS output so that it fully validates based on W3C standards. Fixed a bug in navigation to select the "hamburger" icon only and not the whole navigation element. All classes are named with BEM conventions. SASS can be refactored to remove bloat at a later date.

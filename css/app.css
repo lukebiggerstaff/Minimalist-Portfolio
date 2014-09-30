@@ -464,33 +464,31 @@ body {
   text-align: center;
   padding: 0; }
   /* line 55, ../sass/modules/_navbar.scss */
-  .navigation--links li {
-    border-top: 1px solid #6f6f6f;
-    width: 100%;
-    padding: .3em 0; }
-  /* line 61, ../sass/modules/_navbar.scss */
   .navigation--links a {
+    display: block;
     text-decoration: none;
-    color: #676767;
-    margin: .5em 0;
-    transition: .3s color, .3s text-shadow; }
-  /* line 68, ../sass/modules/_navbar.scss */
+    color: #5a5a5a;
+    padding: .8em 1.2em;
+    border-top: 0.0625em solid #5a5a5a; }
+  /* line 63, ../sass/modules/_navbar.scss */
   .navigation--links__github {
-    border-bottom: 0.0625em solid #6f6f6f; }
-  @media screen and (min-width: 660px) {
-    /* line 74, ../sass/modules/_navbar.scss */
-    .navigation--links a {
+    border-bottom: 0.0625em solid #5a5a5a; }
+  @media screen and (min-width: 41.25em) {
+    /* line 68, ../sass/modules/_navbar.scss */
+    .navigation--links li {
       display: inline-block;
-      margin: 0 1em;
-      padding: .8em 1.2em; }
-      /* line 79, ../sass/modules/_navbar.scss */
+      margin: 0 1em; }
+    /* line 73, ../sass/modules/_navbar.scss */
+    .navigation--links__github {
+      border-bottom: initial; }
+    /* line 77, ../sass/modules/_navbar.scss */
+    .navigation--links a {
+      border: initial; }
+      /* line 80, ../sass/modules/_navbar.scss */
       .navigation--links a:hover {
         color: black;
         transition: .3s color, .3s text-shadow;
-        text-shadow: 0.0625em 0.0625em 0.0625em black; }
-    /* line 86, ../sass/modules/_navbar.scss */
-    .navigation--links li {
-      border: none; } }
+        text-shadow: 0.0625em 0.0625em 0.0625em black; } }
 
 /* line 1, ../sass/modules/_bodycopy.scss */
 .content {
@@ -578,13 +576,8 @@ body {
 
 /* line 114, ../sass/modules/_bodycopy.scss */
 .content--copy__first-paragraph, .content--copy__second-paragraph, .content--copy__third-paragraph {
-  text-justify: block;
   color: #6f6f6f;
   text-align: justify; }
-  @media screen and (min-width: 41.25em) {
-    /* line 114, ../sass/modules/_bodycopy.scss */
-    .content--copy__first-paragraph, .content--copy__second-paragraph, .content--copy__third-paragraph {
-      text-align: none; } }
 
 /* line 1, ../sass/modules/_footer.scss */
 .footer--links {

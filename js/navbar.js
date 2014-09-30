@@ -1,4 +1,5 @@
 //Select navbar
+var navigationButton = document.querySelector('.navigation--button')
 var navigation = document.querySelector('.navigation');
 
 //Add collapsed class to element
@@ -7,4 +8,4 @@ var toggleNavigation = function () {
 };
 
 //Set event listener on click
-navigation.addEventListener( 'click' , toggleNavigation );
+navigationButton.addEventListener( 'click' , toggleNavigation );
