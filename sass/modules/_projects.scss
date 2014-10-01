@@ -1,0 +1,29 @@
+.projects {
+	margin: 0 auto;
+	width: 90%;
+}
+
+.projects--gallery {
+
+	&:after {
+		content: '';
+		display: table;
+		clear: both;
+	}	
+}
+
+.projects---gallery__item {
+	border: 3px solid $grey;	
+	height: 10em;
+	margin: 1.5%;
+	
+	@media screen and (min-width: 41.25em) {
+		margin: 1em 1% 0 0;
+		width: 32%;
+		float: left;
+		
+		&:nth-of-type(3) {
+			float: right;
+		}
+	}
+}

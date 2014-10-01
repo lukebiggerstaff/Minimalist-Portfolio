@@ -1,0 +1,44 @@
+.about {
+	width: 90%;
+	margin: 0 auto;
+
+	&:after {
+		content: '';
+		display: table;
+		clear: both;
+	}
+}
+
+.about--headshot {
+
+	@media screen and (min-width: 41.25em) {
+		margin: 1em 1% 0 0;
+		width: 32%;
+		float: left;
+	}
+}
+
+.about--headshot__img {
+	max-width: 50%;
+	display: block;
+	border: .2em solid $grey;
+	border-radius: 100%;
+	margin: 1em auto;
+}
+
+.about--content {
+	color: $grey;
+
+	@media screen and (min-width: 41.25em) {
+		width: 66%;
+		float: right;
+	}
+}
+
+.about--content__headline {
+
+}
+
+.about--content__body {
+
+}

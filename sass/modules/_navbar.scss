@@ -6,11 +6,11 @@
 	overflow: hidden;
 
 	&__is-open {
-		height: inherit;	
+		height: initial;	
 	}
 
 	@media screen and (min-width: 41.25em) {
-		height: inherit;
+		height: initial;
 	}
 
 }
@@ -41,6 +41,19 @@
 	text-align: center;
 }
 
+.navigation--logo__link {
+	text-decoration: none;
+	color: inherit;
+		
+	@media screen and (min-width: 41.25em) {
+		
+		&:hover {
+			color: #333;
+			transition: .3s color, .3s text-shadow;
+		}
+	}
+}
+
 .navigation--logo__bold {
 	font-size: 8em;
 	padding: 0;
@@ -60,7 +73,7 @@
 		border-top: .0625em solid $grey;
 	}
 
-	&__github {
+	&__projects {
 		border-bottom: .0625em solid $grey;
 	}
 
@@ -70,7 +83,7 @@
 			margin: 0 1em;
 		}
 
-		&__github {
+		&__projects {
 			border-bottom: initial;
 		}
 	

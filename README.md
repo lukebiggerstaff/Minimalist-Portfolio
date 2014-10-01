@@ -22,3 +22,8 @@ Home page has been fleshed out and footer added. All widths are in ems and perce
 #####4th Commit
 
 Fixed HTML and CSS output so that it fully validates based on W3C standards. Fixed a bug in navigation to select the "hamburger" icon only and not the whole navigation element. All classes are named with BEM conventions. SASS can be refactored to remove bloat at a later date.
+
+------
+#####5th Commit
+
+Stuck footer at the bottom of the page so it would not creep up into the middle of the page if there was little content on the page. Fixed a layout bug in footer so icons will not collapse on mobile devices. I Started the code for the projects page but will need to complete layout as well as enter content into the home and about pages.
