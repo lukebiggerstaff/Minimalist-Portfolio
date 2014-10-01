@@ -679,7 +679,7 @@ body {
   /* line 12, ../sass/modules/_about.scss */
   .about--headshot {
     margin: 1em 1% 0 0;
-    width: 32%;
+    width: 24%;
     float: left; } }
 
 /* line 21, ../sass/modules/_about.scss */
@@ -689,15 +689,37 @@ body {
   border: 0.2em solid #5a5a5a;
   border-radius: 100%;
   margin: 1em auto; }
+  @media screen and (min-width: 41.25em) {
+    /* line 21, ../sass/modules/_about.scss */
+    .about--headshot__img {
+      max-width: 80%; } }
 
-/* line 29, ../sass/modules/_about.scss */
+/* line 33, ../sass/modules/_about.scss */
 .about--content {
   color: #5a5a5a; }
   @media screen and (min-width: 41.25em) {
-    /* line 29, ../sass/modules/_about.scss */
+    /* line 33, ../sass/modules/_about.scss */
     .about--content {
-      width: 66%;
+      width: 75%;
       float: right; } }
+
+/* line 46, ../sass/modules/_about.scss */
+.about--content__p1 {
+  line-height: 1.3;
+  font-size: 1.2em;
+  color: #5a5a5a; }
+
+/* line 46, ../sass/modules/_about.scss */
+.about--content__p2 {
+  line-height: 1.3;
+  font-size: 1.2em;
+  color: #5a5a5a; }
+
+/* line 46, ../sass/modules/_about.scss */
+.about--content__p3 {
+  line-height: 1.3;
+  font-size: 1.2em;
+  color: #5a5a5a; }
 
 /* line 1, ../sass/modules/_projects.scss */
 .projects {

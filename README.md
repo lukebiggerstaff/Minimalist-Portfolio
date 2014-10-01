@@ -27,3 +27,8 @@ Fixed HTML and CSS output so that it fully validates based on W3C standards. Fix
 #####5th Commit
 
 Stuck footer at the bottom of the page so it would not creep up into the middle of the page if there was little content on the page. Fixed a layout bug in footer so icons will not collapse on mobile devices. I Started the code for the projects page but will need to complete layout as well as enter content into the home and about pages.
+
+------
+#####6th Commit
+
+Added copy to home page and about page. Changed headshot image width proportions on mobile and desktop views on about page. Edited line height and font size of about copy.
