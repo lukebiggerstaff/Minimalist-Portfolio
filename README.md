@@ -32,3 +32,8 @@ Stuck footer at the bottom of the page so it would not creep up into the middle 
 #####6th Commit
 
 Added copy to home page and about page. Changed headshot image width proportions on mobile and desktop views on about page. Edited line height and font size of about copy.
+
+------
+#####7th Commit
+
+Deleted projects.html and added a folder for projects with an index.html file that is the same as projects.html. The projects folder will house all the information for the sites and apps that will go in the portfolio gallery.
