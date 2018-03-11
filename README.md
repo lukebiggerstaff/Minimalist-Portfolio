@@ -37,8 +37,3 @@ Added copy to home page and about page. Changed headshot image width proportions
 ##### 7th Commit
 
 Deleted projects.html and added a folder for projects with an index.html file that is the same as projects.html. The projects folder will house all the information for the sites and apps that will go in the portfolio gallery.
-
-------
-##### 8th Commit
-
-Reviving long lost minimal portfolio. Going to include more javsacript and experiment with PostCSS
